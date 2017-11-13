@@ -91,6 +91,13 @@ namespace KeyboardJedi.UI
 				Keys.Next.AddToSpecialSingleKeys();
 				Keys.Prior.AddToSpecialSingleKeys();
 			}
+            if (Settings.Default.ShowArrows)
+            {
+                Keys.Left.AddToSpecialSingleKeys();
+                Keys.Right.AddToSpecialSingleKeys();
+                Keys.Up.AddToSpecialSingleKeys();
+                Keys.Down.AddToSpecialSingleKeys();
+            }
 		}
 	}
 }
